@@ -266,3 +266,24 @@ You can now enjoy a full modern terminal workflow
    $(HOME) mosh USER@WORK tmux
 
 .. image:: images/desktop_tmux.png
+
+-----------------------------------------------------------------------------
+
+Remote Visual Studio code
+-------------------------
+
+Most of the time, all commands can be called from terminal, but your graphical
+editor forces you to use x2go.
+
+If you want to avoid that, you can start using Visual Studio code
+(https://code.visualstudio.com/). It is a modern and efficient text editor (and
+much more).
+
+With it, it is possible to control a distant vscode instance, allowing you to
+edit as if you were in local. Only ssh if needed.
+
+Please check this documentation on how to do it:
+https://code.visualstudio.com/docs/remote/ssh
+
+For windows users, you must install git for windows
+(https://git-scm.com/download/win).
